@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - '../db/**/*'
+    - '../config/**/*'
+
+Style/FrozenStringLiteralComment:
+  SafeAutoCorrect: true
+
+Style/Documentation:
+  Exclude:
+    - '../app/controllers/**/*'
+    - '../app/models/**/*'
